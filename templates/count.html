@@ -1,0 +1,11 @@
+Count
+<a href="{% url 'home' %}">try again</a>
+<h1>The text you have entered is : {{txtdoc}}</h1>
+
+<h3>There are {{noofwords}} words</h3>
+
+
+{% for i,j in Worddic.items %}
+{{i}} - {{j}}
+<br>
+{% endfor %}
